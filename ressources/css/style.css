@@ -15,7 +15,7 @@ html {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -322,25 +322,132 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--------------------------------*/
 /* TABLEAU PRIX FIN */
 /*--------------------------------*/
+
+.icon2
+{
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    color: orange;
+    margin-right: 10px;
+}
+
+
+.centres
+{
+    background:#fff;
+}
+
+.centre ul
+{
+    list-style:none;
+    font-weight:300;
+}
+
+.col-sm-3 img
+{
+    width:190px;
+    height:auto;
+    margin-bottom:20px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+blockquote {                /*-- Permet de regler la balise blockquote au niveau de la hauteur, la marge etc.. --*/
+    position: relative;
+    padding: 5%;
+    margin-top: 40px;
+    font-style: italic;
+    line-height: 120%;
+}
+
+blockquote:before {         /*-- Le before est utiliser pour dire a la balise blockquote qu'avant celle-ci, il y a des guillemets --*/
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    display: block;
+    content: "\201C";
+    color: gray;
+    font-size: 150%
+}
+
+cite {                  /*-- Réglage de la balise <cite> ainsi que l'image (Pour la mettre en rond ) --*/
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 25px;
+    vertical-align: middle;
+    width:80px;
+}
+
+
+
+/*--------------------------------*/
+
+/* CENTRES DE FORMATIONS FIN */
+
+/*--------------------------------*/
+
+/* ------------------------------ */
+
+/* FOOTER */
+
+/* ------------------------------ */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer li a,
+.social-links li a {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+
+.social-links li a: {
+
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
